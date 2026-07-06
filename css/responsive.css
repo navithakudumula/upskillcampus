@@ -1,0 +1,161 @@
+/* ===========================================
+   RESPONSIVE DESIGN
+=========================================== */
+
+/* Large Devices */
+@media (max-width:1200px){
+
+.hero h1{
+font-size:42px;
+}
+
+section h2{
+font-size:34px;
+}
+
+}
+
+/* Tablets */
+
+@media (max-width:992px){
+
+.navbar-brand{
+font-size:24px;
+}
+
+.hero{
+text-align:center;
+padding:60px 0;
+}
+
+.hero img{
+margin-top:40px;
+}
+
+.hero h1{
+font-size:38px;
+}
+
+.hero p{
+font-size:17px;
+}
+
+.card{
+margin-bottom:25px;
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.hero{
+padding:50px 0;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:16px;
+}
+
+.hero .btn{
+display:block;
+width:100%;
+margin-bottom:15px;
+}
+
+.navbar-nav{
+text-align:center;
+}
+
+.nav-link{
+margin:10px 0;
+}
+
+.card img{
+height:220px;
+}
+
+section{
+padding:60px 0;
+}
+
+section h2{
+font-size:28px;
+}
+
+.input-group{
+flex-direction:column;
+}
+
+.input-group input{
+margin-bottom:10px;
+border-radius:8px !important;
+}
+
+.input-group button{
+width:100%;
+border-radius:8px !important;
+}
+
+}
+
+/* Small Mobile */
+
+@media (max-width:576px){
+
+.hero h1{
+font-size:28px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+.navbar-brand{
+font-size:20px;
+}
+
+.card img{
+height:180px;
+}
+
+footer{
+text-align:center;
+}
+
+footer h4{
+font-size:22px;
+}
+
+}
+
+/* Extra Small */
+
+@media (max-width:400px){
+
+.hero h1{
+font-size:24px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.btn{
+font-size:14px;
+}
+
+section h2{
+font-size:24px;
+}
+
+.card img{
+height:160px;
+}
+
+}

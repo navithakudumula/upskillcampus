@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Client Website Offering Client Services</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fa-solid fa-house-user"></i>
+            ServiceHub
+        </a>
+
+        <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+
+                <li class="nav-item ms-2">
+                    <a class="btn btn-warning" href="register.html">
+                        Register
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="hero py-5">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <h1 class="display-4 fw-bold">
+                    Book Trusted Local Services
+                </h1>
+
+                <p class="lead mt-3">
+                    Find verified professionals for
+                    Home Cleaning,
+                    Electrician,
+                    Plumber,
+                    Beautician,
+                    Pet Care,
+                    Web Design
+                    and many more services.
+                </p>
+
+                <form class="d-flex mt-4">
+
+                    <input
+                        type="text"
+                        class="form-control me-2"
+                        placeholder="Search Service">
+
+                    <button
+                        class="btn btn-primary">
+
+                        Search
+
+                    </button>
+
+                </form>
+
+                <div class="mt-4">
+
+                    <a href="services.html"
+                        class="btn btn-success btn-lg">
+
+                        Book Now
+
+                    </a>
+
+                    <a href="register.html"
+                        class="btn btn-outline-primary btn-lg">
+
+                        Become Provider
+
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <img
+                    src="images/hero.jpeg"
+                    class="img-fluid rounded shadow"
+                    alt="Hero">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SERVICES ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center">
+
+<h2 class="fw-bold">
+Popular Services
+</h2>
+
+<p>
+Choose from our most requested services.
+</p>
+
+</div>
+
+<div class="row mt-5">
+    <!-- ================= SERVICE CARDS ================= -->
+
+<div class="col-md-3 mb-4">
+
+<div class="card shadow border-0 h-100">
+
+<img src="images/electrician.jpeg"
+class="card-img-top"
+alt="Electrician">
+
+<div class="card-body text-center">
+
+<i class="fa-solid fa-bolt fa-2x text-warning mb-3"></i>
+
+<h5>Electrician</h5>
+
+<p>Professional electrical installation and repair services.</p>
+
+<a href="services.html"
+class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-4">
+
+<div class="card shadow border-0 h-100">
+
+<img src="images/plumber.jpeg"
+class="card-img-top"
+alt="Plumber">
+
+<div class="card-body text-center">
+
+<i class="fa-solid fa-faucet fa-2x text-primary mb-3"></i>
+
+<h5>Plumber</h5>
+
+<p>Expert plumbing services for homes and businesses.</p>
+
+<a href="services.html"
+class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-4">
+
+<div class="card shadow border-0 h-100">
+
+<img src="images/beautician.jpeg"
+class="card-img-top"
+alt="Beautician">
+
+<div class="card-body text-center">
+
+<i class="fa-solid fa-spa fa-2x text-danger mb-3"></i>
+
+<h5>Beautician</h5>
+
+<p>Salon, makeup, skincare and beauty services.</p>
+
+<a href="services.html"
+class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-3 mb-4">
+
+<div class="card shadow border-0 h-100">
+
+<img src="images/cleaning.jpeg"
+class="card-img-top"
+alt="Cleaning">
+
+<div class="card-body text-center">
+
+<i class="fa-solid fa-broom fa-2x text-success mb-3"></i>
+
+<h5>Home Cleaning</h5>
+
+<p>Professional home and office cleaning solutions.</p>
+
+<a href="services.html"
+class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Why Choose Us
+</h2>
+
+<p>Your trusted partner for local services.</p>
+
+</div>
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-user-check fa-3x text-primary mb-3"></i>
+
+<h5>Verified Professionals</h5>
+
+<p>All service providers are verified for quality and reliability.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-clock fa-3x text-success mb-3"></i>
+
+<h5>Quick Booking</h5>
+
+<p>Book trusted professionals in just a few clicks.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-shield-halved fa-3x text-warning mb-3"></i>
+
+<h5>Secure Service</h5>
+
+<p>Safe and secure platform for customers and providers.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<i class="fa-solid fa-headset fa-3x text-danger mb-3"></i>
+
+<h5>24/7 Support</h5>
+
+<p>Dedicated customer support whenever you need help.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= HOW IT WORKS ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+How It Works
+</h2>
+
+</div>
+
+<div class="row text-center">
+
+<div class="col-md-3">
+
+<h1 class="text-primary">1</h1>
+
+<h5>Search</h5>
+
+<p>Find the required service.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="text-primary">2</h1>
+
+<h5>Select</h5>
+
+<p>Choose the best professional.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="text-primary">3</h1>
+
+<h5>Book</h5>
+
+<p>Schedule your preferred time.</p>
+
+</div>
+
+<div class="col-md-3">
+
+<h1 class="text-primary">4</h1>
+
+<h5>Enjoy</h5>
+
+<p>Receive quality service at your doorstep.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+<!-- ================= FEATURED PROFESSIONALS ================= -->
+
+<section class="py-5 bg-light">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Featured Professionals
+</h2>
+
+<p>Meet our trusted service providers.</p>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-4 mb-4">
+
+<div class="card shadow border-0">
+
+<img src="images/provider1.jpeg" class="card-img-top" alt="Provider">
+
+<div class="card-body text-center">
+
+<h5>Rahul Kumar</h5>
+
+<p>Electrician</p>
+
+<h6 class="text-warning">
+★★★★★
+</h6>
+
+<p>5+ Years Experience</p>
+
+<a href="booking.html" class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<div class="card shadow border-0">
+
+<img src="images/provider2.jpeg" class="card-img-top" alt="Provider">
+
+<div class="card-body text-center">
+
+<h5>Priya Sharma</h5>
+
+<p>Beautician</p>
+
+<h6 class="text-warning">
+★★★★★
+</h6>
+
+<p>7+ Years Experience</p>
+
+<a href="booking.html" class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="col-md-4 mb-4">
+
+<div class="card shadow border-0">
+
+<img src="images/provider3.jpeg" class="card-img-top" alt="Provider">
+
+<div class="card-body text-center">
+
+<h5>Arjun Reddy</h5>
+
+<p>Home Cleaning</p>
+
+<h6 class="text-warning">
+★★★★★
+</h6>
+
+<p>6+ Years Experience</p>
+
+<a href="booking.html" class="btn btn-primary">
+Book Now
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="text-center mb-5">
+
+<h2 class="fw-bold">
+Customer Testimonials
+</h2>
+
+</div>
+
+<div class="row">
+
+<div class="col-md-4">
+
+<div class="card shadow border-0 p-4">
+
+<p>
+"Excellent service! Booking was quick and the electrician arrived on time."
+</p>
+
+<h5>- Anjali</h5>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow border-0 p-4">
+
+<p>
+"Very professional home cleaning service. Highly recommended."
+</p>
+
+<h5>- Ramesh</h5>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card shadow border-0 p-4">
+
+<p>
+"Beautiful website and easy booking process. Loved it!"
+</p>
+
+<h5>- Sneha</h5>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="py-5 bg-primary text-white">
+
+<div class="container">
+
+<div class="row">
+
+<div class="col-lg-6">
+
+<h2>Contact Us</h2>
+
+<p>
+📍 Hyderabad, Telangana
+</p>
+
+<p>
+📞 +91 9876543210
+</p>
+
+<p>
+✉ support@servicehub.com
+</p>
+
+</div>
+
+<div class="col-lg-6">
+
+<form>
+
+<input
+type="text"
+class="form-control mb-3"
+placeholder="Your Name">
+
+<input
+type="email"
+class="form-control mb-3"
+placeholder="Your Email">
+
+<textarea
+class="form-control mb-3"
+rows="4"
+placeholder="Message"></textarea>
+
+<button
+class="btn btn-warning">
+
+Send Message
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="py-5">
+
+<div class="container text-center">
+
+<h2>
+Subscribe to our Newsletter
+</h2>
+
+<p>
+Get updates on offers and new services.
+</p>
+
+<div class="row justify-content-center">
+
+<div class="col-md-6">
+
+<div class="input-group">
+
+<input
+type="email"
+class="form-control"
+placeholder="Enter your email">
+
+<button
+class="btn btn-primary">
+
+Subscribe
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="bg-dark text-white text-center py-4">
+
+<div class="container">
+
+<h4>ServiceHub</h4>
+
+<p>
+Multi-Client Website Offering Client Services
+</p>
+
+<p>
+
+<a href="#" class="text-white me-3">Home</a>
+
+<a href="about.html" class="text-white me-3">About</a>
+
+<a href="services.html" class="text-white me-3">Services</a>
+
+<a href="contact.html" class="text-white">
+
+Contact
+
+</a>
+
+</p>
+
+<hr class="bg-white">
+
+<p>
+
+© 2026 ServiceHub. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
